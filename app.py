@@ -13,7 +13,7 @@ class_dict = {0:'Anggraecum', 1:'Brassavola'}
 def predict_label(img_path):
     query = cv2.imread(img_path)
     output = query.copy()
-    query = cv2.resize(query, (69, 69))
+    query = cv2.resize(query, (100, 100))
     q = []
     q.append(query)
     q = np.array(q, dtype='float') / 255.0
