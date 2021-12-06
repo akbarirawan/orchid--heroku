@@ -1,2 +1,2 @@
-# pneumonia_heroku
- Image Retrieval Pneumonia
+# orchid_heroku
+ Image Retrieval orchid
